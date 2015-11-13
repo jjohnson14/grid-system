@@ -3,3 +3,38 @@
 	border:1px solid rgba(86, 61, 124, .2);
 	padding:10px;
 }
+h2 {
+	text-align:center;
+}
+.xs {
+	display:none;
+}
+.sm {
+	display:none;
+}
+.md {
+	display:none;
+}
+.lg {
+	display:none;
+}
+@media(max-width:767px) {
+	.xs {
+		display:block;
+	}
+}
+@media(min-width:768px) and (max-width:991px) {
+	.sm {
+		display:block;
+	}
+}
+@media(min-width:992px) and (max-width:1199px) {
+	.md {
+		display:block;
+	}
+}
+@media(min-width:1200px) {
+	.lg {
+		display:block;
+	}
+}
